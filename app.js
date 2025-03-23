@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const userGuess = parseInt(guessInput.value);
         if (userGuess == randomNumber) {
             messageDiv.textContent = "Congratulations! You guessed the right number.";
-        }else if(attempts < 3) {
+        }else if(attempts > 3) {
             messageDiv.textContent = "Wrong guess! attempts left";
         }else{
             messageDiv.textContent = "Wrong guess. Try again!";
