@@ -1,0 +1,30 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1b1b1c;
+}
+.container{
+    background-color: rgb(142, 227, 227);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.game{
+    width: 250px;
+    margin-bottom: 15px;
+}
+h1{
+    color: #007bff;
+}
+.message {
+    margin: 25px 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: blueviolet;
+}
